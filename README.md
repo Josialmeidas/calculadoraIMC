@@ -8,10 +8,11 @@
 ## Funcionalidades
 
 ### 1 - Listagem de todos os pacientes cadastrados, utilizando o método (verbo) ***GET***
+Retorna um status code (200), com a lista de todos os pacientes cadastrados.
 
 ![](https://github.com/Josialmeidas/calculadoraIMC/blob/main/listagemPacientes.png)
 
-Caso ainda não haja nenhum paciente cadastrado, retorna um array vazio: []
+### Caso não haja nenhum paciente cadastrado, retorna um array vazio: []
 
 ### 2 - Cadastro de novos pacientes, utilizando o método (verbo) ***POST***
 Para cada novo paciente cadastrado, é gerado um número único de id e calculado seu Índice de Massa corporal, com base no peso e altura informados.
@@ -25,7 +26,7 @@ Caso seja fornecido o mesmo e-mail, é retornando o status code(400) com a segui
 }
 ```
 
-Caso não haja duplicidade de cadastro, é retornando um objeto contendo as informações do novo paciente cadastrado:
+Caso não haja duplicidade de cadastro, é retornando um objeto contendo as informações do novo paciente cadastrado, com status code (201):
 
 ![](https://github.com/Josialmeidas/calculadoraIMC/blob/main/cadastroPaciente.png)
 
