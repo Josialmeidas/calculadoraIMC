@@ -32,6 +32,7 @@ Caso não haja duplicidade de cadastro, é retornando um objeto contendo as info
 
 
 O projeto ainda está passando por melhorias e adaptações, mas já se mostra eficaz ao que foi proposto!
+### Para inicializar o projeto: npm run dev
 
 ### Para me encontrar: 
 
