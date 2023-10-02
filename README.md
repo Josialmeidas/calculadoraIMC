@@ -1,11 +1,9 @@
 # Calculadora de IMC
 ## Nesta API REST é possível realizar o cadastro de pacientes, incluindo o cálculo de IMC e realizar uma listagem de todos os pacientes cadastrados.
 
-API:
 
-***Disponívek em:***  http://localhost:3000/pacientes
+***Disponível em:***  http://localhost:3000/pacientes
 
-Segue o padrão REST, contemplando os métodos (verbos) GET e POST
 
 ## Funcionalidades
 
