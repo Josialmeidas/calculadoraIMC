@@ -3,7 +3,7 @@
 
 API:
 
-Está disponível no endereço http://localhost:3000/pacientes
+Estará disponível no endereço http://localhost:3000/pacientes
 Segue o padrão REST, contemplando os métodos (verbos) GET e POST
 Os códigos de status (status codes) a serem retornados deverão seguir a especificação de cada método.
 
@@ -23,7 +23,7 @@ IMC (numero)
 No terminal, digite: img src = <https://github.com/Josialmeidas/calculadoraIMC/issues/1#issue-1921816070>
 
 ## 2 - Instalando as bibliotecas (Express e Nodemon):
-Express - img src = <https://github.com/Josialmeidas/calculadoraIMC/issues/1#issuecomment-1742921091>
-Nodemon - img src = <https://github.com/Josialmeidas/calculadoraIMC/issues/1#issuecomment-1742922809>
+Express - <img src = https://github.com/Josialmeidas/calculadoraIMC/issues/1#issuecomment-1742921091>
+Nodemon - <img src = https://github.com/Josialmeidas/calculadoraIMC/issues/1#issuecomment-1742922809>
 
 ## 3 -
