@@ -7,23 +7,15 @@ Estará disponível no endereço http://localhost:3000/pacientes
 Segue o padrão REST, contemplando os métodos (verbos) GET e POST
 Os códigos de status (status codes) a serem retornados deverão seguir a especificação de cada método.
 
-
-Cada objeto de novo paciente terá:
-
-idPaciente (número)
-nome (string)
-peso (número)
-altura (número)
-email (string)
-IMC (numero)
+<img src = https://github.com/Josialmeidas/calculadoraIMC/issues/1#issuecomment-1742937436>
 
 ## Passo a passo:
 
-## 1 - Iniciar um novo projeto com npm
+### 1 - Iniciar um novo projeto com npm
 No terminal, digite: img src = <https://github.com/Josialmeidas/calculadoraIMC/issues/1#issue-1921816070>
 
-## 2 - Instalando as bibliotecas (Express e Nodemon):
+### 2 - Instalando as bibliotecas (Express e Nodemon):
 Express - <img src = https://github.com/Josialmeidas/calculadoraIMC/issues/1#issuecomment-1742921091>
 Nodemon - <img src = https://github.com/Josialmeidas/calculadoraIMC/issues/1#issuecomment-1742922809>
 
-## 3 -
+### 3 -
