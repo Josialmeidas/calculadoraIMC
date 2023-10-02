@@ -22,8 +22,9 @@ Os códigos de status (status codes) a serem retornados deverão seguir a especi
 No terminal, digite:
 ``` npm init -y ```
 
-### 2 - Instalando as bibliotecas (Express e Nodemon):
+### 2 - Instalando o Express
 Express - ``` npm install express ```
+
+### 3 - Instalando o Nodemon
 Nodemon - ``` npm install -D nodemon ```
 
-### 3 -
