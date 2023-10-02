@@ -18,13 +18,13 @@ Os códigos de status (status codes) a serem retornados deverão seguir a especi
 
 ## Passo a passo:
 
-### 1 - Iniciar um novo projeto com npm
+1 - Iniciar um novo projeto com npm
 No terminal, digite:
 ``` npm init -y ```
 
-### 2 - Instalando o Express
+2 - Instalando o Express
 Express - ``` npm install express ```
 
-### 3 - Instalando o Nodemon
+3 - Instalando o Nodemon
 Nodemon - ``` npm install -D nodemon ```
 
