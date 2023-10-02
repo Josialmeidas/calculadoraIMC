@@ -18,7 +18,7 @@ Os códigos de status (status codes) a serem retornados deverão seguir a especi
 
 ## Passo a passo:
 
-1 - Iniciar um novo projeto com npm
+1 - Iniciar um novo projeto com npm.
 No terminal, digite:
 ``` npm init -y ```
 
