@@ -3,7 +3,8 @@
 
 API:
 
-***ROTA:*** http://localhost:3000/pacientes
+***Disponívek em:***  http://localhost:3000/pacientes
+
 Segue o padrão REST, contemplando os métodos (verbos) GET e POST
 
 ## Funcionalidades
