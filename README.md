@@ -1,30 +1,42 @@
-# Cadastro de pacientes
+# Calculadora de IMC
 ## Nesta API REST é possível realizar o cadastro de pacientes, incluindo o cálculo de IMC e realizar uma listagem de todos os pacientes cadastrados.
 
 API:
 
-Estará disponível no endereço http://localhost:3000/pacientes
+***ROTA:*** http://localhost:3000/pacientes
 Segue o padrão REST, contemplando os métodos (verbos) GET e POST
-Os códigos de status (status codes) a serem retornados deverão seguir a especificação de cada método.
 
-### Cada objeto de novo paciente terá:
+## Funcionalidades
 
-- idPaciente (número)
-- nome (string)
-- peso (número)
-- altura (número)
-- email (string)
-- IMC (número)
+### 1 - Listagem de todos os pacientes cadastrados, utilizando o método (verbo) ***GET***
 
-## Passo a passo:
+![](https://github.com/Josialmeidas/calculadoraIMC/blob/main/listagemPacientes.png)
 
-1 - Iniciar um novo projeto com npm.
-No terminal, digite:
-``` npm init -y ```
+Caso ainda não haja nenhum paciente cadastrado, retorna um array vazio: []
 
-2 - Instalando o Express
-Express - ``` npm install express ```
+### 2 - Cadastro de novos pacientes, utilizando o método (verbo) ***POST***
+Para cada novo paciente cadastrado, é gerado um número único de id e calculado seu Índice de Massa corporal, com base no peso e altura informados.
 
-3 - Instalando o Nodemon
-Nodemon - ``` npm install -D nodemon ```
+Para inclusão de novo cadastro, verifica-se se o paciente já está cadastrado com base no e-mail informando no *body* da requisição.
+Caso seja fornecido o mesmo e-mail, é retornando o status code(400) com a seguinte mensagem:
+
+```json
+{
+	"mensagem": "Paciente já cadastrado!"
+}
+```
+
+Caso não haja duplicidade de cadastro, é retornando um objeto contendo as informações do novo paciente cadastrado:
+
+![](https://github.com/Josialmeidas/calculadoraIMC/blob/main/cadastroPaciente.png)
+
+
+O projeto ainda está passando por melhorias e adaptações, mas já se mostra eficaz ao que foi proposto!
+
+### Para me encontrar: 
+
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joziane-almeida-dev/)
+
+[![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Josialmeidas)
+
 
