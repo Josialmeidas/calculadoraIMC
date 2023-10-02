@@ -35,9 +35,7 @@ O projeto ainda está passando por melhorias e adaptações, mas já se mostra e
 
 Para inicializar o projeto:
 
-```json
- npm run dev
-```
+```npm run dev```
 
 ### Para me encontrar: 
 
