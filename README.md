@@ -7,7 +7,14 @@ Estará disponível no endereço http://localhost:3000/pacientes
 Segue o padrão REST, contemplando os métodos (verbos) GET e POST
 Os códigos de status (status codes) a serem retornados deverão seguir a especificação de cada método.
 
-<img src = https://github.com/Josialmeidas/calculadoraIMC/issues/1#issuecomment-1742937436>
+### Cada objeto de novo paciente terá:
+
+- idPaciente (número)
+- nome (string)
+- peso (número)
+- altura (número)
+- email (string)
+- IMC (número)
 
 ## Passo a passo:
 
