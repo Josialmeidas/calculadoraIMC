@@ -19,11 +19,11 @@ Os códigos de status (status codes) a serem retornados deverão seguir a especi
 ## Passo a passo:
 
 ### 1 - Iniciar um novo projeto com npm
-No terminal, digite: 
-<link src = https://github.com/Josialmeidas/calculadoraIMC/issues/1#issuecomment-1742946396>
+No terminal, digite:
+``` npm init -y ```
 
 ### 2 - Instalando as bibliotecas (Express e Nodemon):
-Express - npm install express
-Nodemon - npm install -D nodemon
+Express - ``` npm install express ```
+Nodemon - ``` npm install -D nodemon ```
 
 ### 3 -
